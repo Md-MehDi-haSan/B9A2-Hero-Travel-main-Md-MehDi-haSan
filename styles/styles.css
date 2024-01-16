@@ -9,7 +9,7 @@
 
 .small-text {
     color: #5A5A5D;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: Mulish;
     font-weight: 400;
     line-height: 26px;
@@ -27,6 +27,7 @@
 
 .banner-section {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: cover;
     max-width: 1100px;
     min-height: 500px;
     margin: 0 auto;
@@ -44,7 +45,7 @@
 
 .banner-text h3 {
     color: white;
-    font-size: 64px;
+    font-size: 4rem;
     font-family: Mulish;
     font-weight: 800;
 }
@@ -82,11 +83,10 @@
     min-height: 550px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid rebeccapurple;
+
 }
 
 .popular-text {
-    border: 2px solid #FF5400;
     width: 35%;
     border-radius: 16px;
     padding: 30px;
@@ -135,7 +135,6 @@
     max-width: 1100px;
     margin: 100px auto;
     min-height: 550px;
-    border: 2px solid rebeccapurple;
 }
 
 .destination-text {
@@ -211,7 +210,6 @@
     min-height: 550px;
     text-align: center;
     justify-content: center;
-    border: 2px solid rebeccapurple;
 }
 
 .choose-us-container h3 {
@@ -285,7 +283,7 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
 }
 
 .text-newsletter {
@@ -332,7 +330,7 @@
 
 
 .newsletter-img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 60%;
 }
 
